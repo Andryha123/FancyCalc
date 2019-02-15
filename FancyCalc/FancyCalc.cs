@@ -11,28 +11,30 @@ namespace FancyCalc
 
         public double Add(int a, int b)
         {
+            double d = a + b;
+            return d;
             throw new NotImplementedException();
-            //return a + b;
         }
 
 
         public double Subtract(int a, int b)
         {
-            //throw new NotImplementedException();
-            return a - b;
+            double c = a - b;
+            return c;
+            throw new NotImplementedException();
         }
 
 
         public double Multiply(int a, int b)
         {
-            return a * b;
+            double k = a * b;
+            return k;
         }
 
         //generic calc method. usage: "10 + 20"  => result 30
         public double Culculate(string expression)
         {
             throw new NotImplementedException();
-
         }
     }
 }
